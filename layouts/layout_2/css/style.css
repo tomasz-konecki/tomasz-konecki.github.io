@@ -15,7 +15,7 @@ body {
     clear: both;
 } 
 .row {
-	overflow: hidden;
+  overflow: hidden;
 }
 header {
   background-color: #313234;
@@ -256,6 +256,9 @@ header > nav ul > li > a:hover {
   height: 220px;
   background: #313332;
 }
+footer p {
+  font-size: 12px;
+}
 
 footer .first-row {
   height: 50px;
@@ -272,14 +275,20 @@ footer .col-left, footer .col-right {
 footer .row-in-row {
   height: 60px;
 }
-footer .first-row h2 {
+footer .first-row h3,
+footer .row-in-row h5 {
   color: #fff;
   text-align: left;
   margin-top: 5px;
   padding-left: 10px;
   text-transform: uppercase;
 }
-footer .second-row p, footer .second-row h3, footer .second-row .icons {
+footer .first-row h3 {
+    padding-top: 5px;
+}
+footer .second-row p,
+footer .second-row h3,
+footer .second-row .icons {
   padding: 0 10px;
   color: #fff;
   margin-top: 7px;
@@ -291,6 +300,7 @@ footer i[class*='fa'] {
   padding: 10px;
   background: #00C7E8;
   margin-left: 10px;
+  border-radius: 3px;
 }
 footer i:first-child {
   margin-left: 0;
@@ -341,7 +351,7 @@ footer i:first-child {
 }
 
 @media (max-width: 1080px) {
-  footer .row-in-row h3 {
+  footer .row-in-row h4 {
     font-size: 1em;
   }
 }
@@ -363,7 +373,7 @@ footer i:first-child {
 }
 
 @media (max-width: 920px) {
-  footer .row-in-row h3 {
+  footer .row-in-row h4 {
     font-size: 0.7em;
   }
 }
@@ -432,7 +442,7 @@ footer i:first-child {
 }
 
 @media (max-width: 680px) {
-  footer .row-in-row h3 {
+  footer .row-in-row h4 {
     font-size: 0.6em;
   }
 }
@@ -457,7 +467,7 @@ footer i:first-child {
     font-size: 0.8em;
   }
 
-  footer .row-in-row h3 {
+  footer .row-in-row h4 {
     font-size: 0.5em;
   }
   footer h2 {
