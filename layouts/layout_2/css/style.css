@@ -53,7 +53,7 @@ header > nav ul > li > a:hover {
 .hero {
   width: 100%;
   height: calc(100vh - 50px);
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/SQZ1KL5EGQ.jpg") 0/cover;
+  background: url("../pics/jumbo-1.jpg") 0/cover;
   border-top: 3px solid #5d6570;
   border-bottom: 3px solid #5d6570;
 }
