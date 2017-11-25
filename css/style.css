@@ -1,0 +1,10 @@
+.photo {
+    height: 200px;
+}
+
+.photo img {
+    height: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
