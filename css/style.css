@@ -9,7 +9,7 @@ a:hover {
     text-decoration: none;
 }
 .card-text {
-	font-variant: small-caps;
-	font-weight: bold;
-	color: #b8b8ba;
+    font-variant: small-caps;
+    .font-weight: bold;
+    color: #8f8f8f;
 }
